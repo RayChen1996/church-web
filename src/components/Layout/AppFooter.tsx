@@ -9,10 +9,10 @@ import Image from "next/image";
 export default function AppFooter() {
   return (
     <>
-      <section className="flex gap-3   items-center   justify-around">
+      <section className="md:flex gap-3   items-center   justify-around bg-white">
         <div className="  flex gap-6 flex-col">
           <Image src={logoSvg} alt="" />
-          <select className="select select-bordered select-none">
+          <select className="select select-bordered bg-white select-none">
             <option value="">繁體中文</option>
           </select>
         </div>
@@ -48,7 +48,7 @@ export default function AppFooter() {
         </div>
       </section>
       <hr className=" w-full divide-y-2 divide-slate-400  "></hr>
-      <footer className="footer  py-8 flex justify-center items-center m-auto">
+      <footer className="footer  py-8 flex justify-center items-center m-auto bg-white">
         COPYRIGHT 2022 台中基督種子教會介紹網站 | 個人Side Project，並非真實網站
       </footer>
     </>

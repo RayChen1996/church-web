@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import AOSLoader from "./AOSLoader";
 
 const inter = Inter({ subsets: ["latin"] });
 import AppHeader from "@/components/Layout/AppHeader";
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={(inter.className, "flex flex-col")}>
         <AppHeader />
         <main className="flex-1">{children}</main>
+        <AOSLoader />
         <AppFooter />
       </body>
     </html>
