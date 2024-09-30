@@ -4,7 +4,7 @@ import searchSvg from "@/../../public/Property 1=Search.svg";
 import Image from "next/image";
 export default function AppHeader() {
   return (
-    <header className="flex justify-around gap-3 items-center bg-white">
+    <header className="flex justify-around gap-3 items-center bg-white top-0 sticky z-50 backdrop-blur-md">
       <Image src={logoSvg} alt="" />
       <ol className=" hidden md:block lg:flex gap-3 items-center text-black font-bold lg:gap-12">
         <li>參加主日</li>
