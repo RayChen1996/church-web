@@ -53,7 +53,7 @@ export default function Schedule() {
             </tr>
           </tbody>
         </table>
-        <div className="absolute right-[-20px] top-[30%] bg-white rounded-full shadow-md p-2">
+        <div className="absolute right-4 top-[30%] translate-y-1/2 rounded-full bg-white p-2 shadow-md">
           <img
             src="/path-to-icon.png"
             alt="icon"

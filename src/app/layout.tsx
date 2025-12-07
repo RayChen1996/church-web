@@ -18,7 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={(inter.className, "flex flex-col")}>
+      <body
+        className={`${inter.className} flex flex-col min-h-screen overflow-x-hidden bg-white`}
+      >
         <AppHeader />
         <main className="flex-1">{children}</main>
         <AOSLoader />
